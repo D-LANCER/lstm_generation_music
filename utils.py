@@ -68,4 +68,4 @@ def create_music(prediction):  # 生成音乐函数，训练不用
     midi_stream = stream.Stream(output_notes)  # 把上面的循环输出结果传到流
 
     # 写入midi文件
-    midi_stream.write('midi', fp='output.mid')  # 最终输出的文件名是output.mid，格式是mid
+    midi_stream.write('midi', fp='output2.mid')  # 最终输出的文件名是output.mid，格式是mid

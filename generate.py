@@ -20,7 +20,7 @@ def generate():
     network_input, normalized_input = prepare_sequences(notes, pitch_names, num_pitch)
 
     # 载入之前训练是最好的参数（最小loss），来生成神经网络模型
-    model = network_model(normalized_input, num_pitch, "weights-90-0.1344.hdf5")
+    model = network_model(normalized_input, num_pitch, "weights-20-0.2599.hdf5")
 
     # 用神经网络来生成音乐数据
     prediction = generate_notes(model, network_input, pitch_names, num_pitch)
