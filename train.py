@@ -3,14 +3,15 @@ import numpy as np
 import tensorflow as tf
 from network import *
 from utils import *
-
+from tensorflow.python.compiler.mlcompute import mlcompute
+mlcompute.set_mlc_device(device_name='any')
 
 def train():
     notes = get_notes()
     # 得到所有不重复的音调数目
     num_pitch = len(set(notes))
     network_input, network_output = prepare_sequences(notes, num_pitch)
-    model = network_model(network_input, num_pitch, weights_file='weights-08-0.9225.hdf5')
+    model = network_model(network_input, num_pitch, )
     # 输入，音符的数量，训练后的参数文件(训练的时候不用写)
     filepath = "weights-{epoch:02d}-{loss:.4f}.hdf5"
 

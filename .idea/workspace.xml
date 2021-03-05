@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7570740-77dd-4b65-8b06-7d2bbf578f74" name="Default Changelist" comment="" />
+    <list default="true" id="f7570740-77dd-4b65-8b06-7d2bbf578f74" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/learning/melodygenerator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learning/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/lstm_generation_music.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lstm_generation_music.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/notes" beforeDir="false" afterPath="$PROJECT_DIR$/data/notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weights-17-0.2899.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weights-18-0.2807.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weights-19-0.2714.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weights-20-0.2599.hdf5" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +32,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -28,7 +41,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.generate">
+  <component name="RunManager" selected="Python.train">
     <configuration name="generate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lstm_generation_music" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -97,8 +110,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.generate" />
         <item itemvalue="Python.train" />
+        <item itemvalue="Python.generate" />
         <item itemvalue="Python.network" />
       </list>
     </recent_temporary>
@@ -113,6 +126,14 @@
       <updated>1612163808743</updated>
       <workItem from="1612163812769" duration="9526000" />
       <workItem from="1612181702694" duration="494000" />
+      <workItem from="1614343141835" duration="496000" />
+      <workItem from="1614345148310" duration="2421000" />
+      <workItem from="1614349758407" duration="12000" />
+      <workItem from="1614349930194" duration="8000" />
+      <workItem from="1614350001284" duration="600000" />
+      <workItem from="1614421537116" duration="28000" />
+      <workItem from="1614430210377" duration="45000" />
+      <workItem from="1614911662817" duration="340000" />
     </task>
     <servers />
   </component>
@@ -132,8 +153,8 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/lstm_generation_music$network.coverage" NAME="network Coverage Results" MODIFIED="1612163906205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/lstm_generation_music$train.coverage" NAME="train Coverage Results" MODIFIED="1612171578909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lstm_generation_music$train.coverage" NAME="train Coverage Results" MODIFIED="1614347525876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lstm_generation_music$generate.coverage" NAME="generate Coverage Results" MODIFIED="1612182078958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lstm_generation_music$network.coverage" NAME="network Coverage Results" MODIFIED="1612163906205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
